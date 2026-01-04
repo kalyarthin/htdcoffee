@@ -111,6 +111,7 @@ section {
 }
 /* about start  */
 .about{
+    min-height: 80vh;
     display: flex;
     background: rgba(230, 230, 164, 0.265);
 
@@ -149,15 +150,15 @@ section {
 }
 .img-2{
     left: 140px;
-    top: 140px;
+    top: 110px;
     z-index: 2;
 }
 .img-container:hover .img-1{
-    transform: scale(1.1);
+    transform: scale(1.2);
     z-index: 5;
 }
 .img-container:hover .img-2{
-    transform: scale(1.07);
+    transform: scale(1.05);
     z-index: 4;
 }
 /* about end  */

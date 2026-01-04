@@ -59,35 +59,37 @@ min-height: 100vh;
 
 
     .about {
-       
+       min-height: 100vh;
         flex-direction: column;
+        padding: 10px 20px;
     }
       .text-container{
         margin-top: 100px;
       }
    
      .img-container img{
-        width: 300px;
+        width: 250px;
         height: 200px;
         transform: scale(1);
     }
+        .img-container:hover .img-1{
+            transform: scale(1.2);
+            
+        }
          .img-2 {
              display: none;
          }
          .img-1{
-            top: 15px;
+            top: 50px;
          }
          /* menu start  */
          
- .menu-container, .trend-container{
+ .menu-container, .trend-container, .popular-container{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
  }
- .popular-container{
-    grid-template-columns: 1fr;
-    gap: 40px;
- }
+
  
   
 
