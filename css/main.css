@@ -261,3 +261,20 @@ flex: 1;
     object-fit: cover;
     object-position: center;
 } 
+/* trend end */
+/* popular start  */
+.popular{
+    background: #d3c0b0;
+    min-height: 50vh;
+}
+.popular-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 50px;
+    padding: 20px;
+}
+.popular-card{
+    text-align: center;
+    gap: 40px;
+}
+/* popular end  */
